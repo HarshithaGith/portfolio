@@ -1,2 +1,2 @@
 # portfolio
-Personal Portfolio Website of Harshitha K N – Junior Web Developer showcasing projects, skills, and experience
+This is my personal portfolio website built with HTML and CSS, designed to showcase my skills, projects, and passion for web development.
