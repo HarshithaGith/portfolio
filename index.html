@@ -3,164 +3,157 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Harshitha K N | Web Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description"
+        content="Harshitha K N's portfolio – A web developer showcasing expertise in HTML, CSS, JavaScript, PHP, and MySQL. Explore innovative web development projects with responsive design and seamless user experience." />
+    <meta name="keywords" content="Harshitha K N, web developer, portfolio" />
+    <title>Harshitha K N | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
-<body>
-
-    <!-- HEADER -->
-    <header>
-        <div class="container">
-            <div class="logo">Harshitha <span>K N</span></div>
-            <nav>
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!-- HERO -->
-    <section id="hero" class="hero">
-    <div class="container">
-        <div class="row align-items-center">
-
-            <!-- LEFT SIDE TEXT -->
-            <div class="col-md-6 hero-text">
-                <h1>
-                    Hi, I'm <span class="highlight">Harshitha</span>
-                </h1>
-
-                <p class="hero-sub">
-                    <i class="fa-solid fa-code"></i>
-                    Junior Web Developer
-                </p>
-
-                <p class="hero-exp">
-                    1.5 Years of Experience building responsive and dynamic websites
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn btn-primary">View Work</a>
-                    <a href="#contact" class="btn btn-outline-light">Contact Me</a>
-                </div>
-            </div>
-
-            <!-- RIGHT SIDE IMAGE -->
-            <div class="col-md-6 text-center">
-                <div class="img-wrapper">
-                    <img src="img/profile.jpeg" alt="Harshitha" class="profile-img">
-                </div>
-            </div>
-
-        </div>
+<nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="#home" aria-label="Home">Home</a></li>
+        <li><a href="#about" aria-label="About">About</a></li>
+        <li><a href="#projects" aria-label="Projects">Projects</a></li>
+        <li><a href="#contact" aria-label="Contact">Contact</a></li>
+    </ul>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
     </div>
-</section>
+</nav>
 
-    <!-- ABOUT -->
-    <section id="about" class="section dark">
-        <h2><i class="fa-solid fa-user"></i> About Me</h2>
-        <p>
-            Motivated Junior Web Developer with 1.5 years of experience in building responsive and dynamic websites
-            using HTML, CSS, PHP, and MySQL. Skilled in creating clean UI designs and developing backend functionality
-            for dynamic content management. Passionate about improving user experience and learning modern technologies.
-        </p>
+<body>
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <h1 class="title-two">Harshitha K N</h1>
+            <h2 class="title-one">WEB DEVELOPER</h2>
+            <div>
+                <a href="mailto:harshithamaniyani@gmail.com" target="_blank" class="btn-two"
+                    aria-label="Harshitha Email">Connect with Me</a>
+                <a href="Harshitha_resume.pdf" target="_blank" aria-label="Harshitha CV" class="btn-one">Download CV</a>
+            </div>
+        </div>
+
     </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section dark">
-        <h2><i class="fa-solid fa-laptop-code"></i> Technical Skills</h2>
-        <ul class="skills-list">
-            <li><i class="fa-brands fa-html5"></i> HTML5</li>
-            <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
-            <li><i class="fa-brands fa-js"></i> JavaScript (Basic)</li>
-            <li><i class="fa-brands fa-php"></i> PHP</li>
-            <li><i class="fa-solid fa-database"></i> MySQL</li>
-            <li><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
-        </ul>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="section dark">
-        <h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
-        <div class="grid">
-
-            <div class="card">
-                <!-- <img src="project3.jpg" alt="Apartment Management System" class="project-img"> -->
-                <h3>Apartment Management System</h3>
-                <p>
-                    Developed a system to manage apartment complexes efficiently, handling tenants, maintenance requests, and billing.
-                    Streamlined communication between residents and management for smoother operations.<br>
-                    <strong>Tech:</strong> NetBeans, MySQL, Java.
-                </p>
-            </div>
-
-            <div class="card">
-                <!-- <img src="project4.jpg" alt="Human Action Recognition" class="project-img"> -->
-                <h3>Human Action Recognition</h3>
-                <p>
-                    Built a system to recognize human activities in YouTube videos using CNNs and LSTMs in TensorFlow.
-                    Implemented machine learning pipelines for accurate activity detection.<br>
-                    <strong>Tech:</strong> Python, NumPy, Matplotlib, TensorFlow.
-                </p>
-            </div>
-
-            <div class="card">
-                <!-- <img src="project5.jpg" alt="Shopping Cart App" class="project-img"> -->
-                <h3>Shopping Cart App</h3>
-                <p>
-                    Developed an Android app to display product categories and details, with cart functionality for adding items and tracking total count and amount.
-                    Enhanced user experience with intuitive UI and smooth navigation.<br>
-                    <strong>Tech:</strong> Java, XML, Android Studio.
-                </p>
-            </div>
-
-            <div class="card">
-                <!-- <img src="project6.jpg" alt="Sign Language Animation System" class="project-img"> -->
-                <h3>Sign Language Animation Generating System</h3>
-                <p>
-                    Developed a system to generate sign language animations using natural language processing.
-                    Bridges communication between sign language users and non-fluent individuals.<br>
-                    <strong>Tech:</strong> Python, NLP.
-                </p>
-            </div>
-
+    <section id="about">
+        <div class="about-content">
+            <h2 class="title-three">About Me</h2>
+            <p>I'm <strong>Harshitha K N</strong>, a passionate and dedicated Web Developer with a strong foundation in
+                both front-end and back-end technologies. I specialize in creating clean, modern, and user-friendly
+                websites that focus on functionality and aesthetics. With expertise in HTML, CSS, JavaScript, PHP, and
+                MySQL.My love for coding goes beyond development, as I continuously strive
+                to enhance my skills by learning new technologies and refining my craft.
+            </p>
+            <p>I believe web development is more than just coding; it’s about crafting seamless interactions and meaningful user journeys. Whether designing intuitive interfaces or developing robust backend systems, I focus on delivering solutions that feel refined, reliable, and purposeful.</p>
 
         </div>
     </section>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section dark experience">
-        <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
-        <p>
-            <strong>Junior Web Developer</strong><br>
-            • Developed and maintained responsive websites.<br>
-            • Built dynamic features using PHP & MySQL.<br>
-            • Integrated contact forms and email functionality using PHPMailer, Breevo<br>
-        </p>
+    <section id="projects">
+        <div class="projects-wrapper">
+            <div class="project-card">
+                <img src="img/apartment.png" alt="Harshitha Portfolio" class="project-image">
+                <h2>Apartment Management System</h2>
+                <p>Developed a system to manage apartment complexes efficiently, handling tenants, maintenance requests, and billing. Streamlined communication between residents and management for smoother operations.</p>
+               <p>
+                 NetBeans/MySQL/Java
+               </p>
+            </div>
+            <div class="project-card">
+                <img src="img/human-action.png" alt="Harshitha Portfolio" class="project-image">
+                <h2>Human Action Recognition</h2>
+                <p>Built a system to recognize human activities in YouTube videos using CNNs and LSTMs in TensorFlow. Implemented machine learning pipelines for accurate activity detection.</p>
+                <p>
+                    Python/NumPy/Matplotlib/TensorFlow
+                </p>
+               
+            </div>
+            <div class="project-card">
+                <img src="img/shopping-cart.png" alt="Harshitha Portfolio" class="project-image">
+                <h2>Shopping Cart App</h2>
+                <p>Developed an Android app to display product categories and details, with cart functionality for adding items and tracking total count and amount. Enhanced user experience with intuitive UI and smooth navigation.</p>
+               <p>
+                Java/XML/Android Studio
+               </p>
+            </div>
+                 <div class="project-card">
+                <img src="img/sign-language.png" alt="Harshitha Portfolio" class="project-image">
+                <h2>Sign Language Animation Generating System</h2>
+                <p>Developed a system to generate sign language animations using natural language processing. Bridges communication between sign language users and non-fluent individuals.</p>
+                <p>Python/NLP
+                </p>
+            </div>
+        </div>
+       
+    </section>
+    
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you! Feel free to send me a message.</p>
+            <form action="https://formspree.io/f/meevayej" method="post" class="contact-form">
+                <input type="hidden" name="_redirect" value="thank.html">
+
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn-one">Send Message</button>
+            </form>
+        </div>
     </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section dark">
-        <h2><i class="fa-solid fa-envelope"></i> Contact Me</h2>
-        <form action="send.php" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="number" placeholder="Your Mobile Number" required>
-            <input type="text" name="subject" placeholder="Subject" required>
-            <textarea name="comments" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>About Me</h3>
+                    <p>I'm Harshitha K N, a passionate web developer. Let's connect and collaborate on exciting projects!
+                    </p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <ul class="social-links">
+                        <li><a href="www.linkedin.com/in/harshitha-k-n-a8bb" target="_blank"
+                                aria-label="Harshitha Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/HarshithaGith" target="_blank" aria-label="Harshitha Github"><i
+                                    class="fab fa-github"></i></a>
+                        </li>
+                        <!-- <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
+                        <!-- <li><a href="#" target="_blank"
+                                aria-label="Harshitha Instagram"><i class="fab fa-instagram"></i></a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p>Email: <a href="mailto:harshithamaniyani@gmail.com" target="_blank"
+                            aria-label="Harshitha Email">harshithamaniyani@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Harshitha K N. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
 
 </body>
 
